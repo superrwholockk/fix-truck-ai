@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: rgba(21, 23, 28, 1);
+    padding-top: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-btn {
+    background-color: rgba(158, 20, 64, 0.04);
+    border: 2px solid rgba(158, 20, 64, 1);
+    padding: 14px 18px;
+    border-width: 2px;
+    border-radius: 14px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 1);
+    width: fit-content;
+}
+
+.hero {
+    margin-top: 56px;
+    margin-bottom: 146px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: rgba(255, 255, 255, 1);
+    max-width: 694px;
+}
+
+.hero-logo-border {
+    width: 64px;
+    height: 64px;
+    padding: 2px;
+    border-radius: 12px;
+    background: linear-gradient(180deg, #9E1440 0%, #424580 100%);
+}
+
+.hero-logo-wrapper {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #0f0f14;
+}
+
+.hero-logo {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-title {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+
+}
+
+.hero-title span,
+.user-type-section-title span,
+.features-section-title span,
+.join-the-fixtruck-title span {
+    color: rgba(158, 20, 64, 1);
+}
+
+.hero-description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 545px;
+}
+
+.hero button {
+    width: fit-content;
+}
+
+.hero-banner-wrapper {
+    margin-right: 232px;
+    padding: 7px;
+    background-color: #575757;
+    border-radius: 34px;
+
+}
+
+.hero-banner-wrapper img {
+    border-radius: 29px;
+    width: 100%;
+    top: 2px;
+}
+
+.user-type-section {
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 1);
+    backdrop-filter: blur(4px);
+}
+
+.user-type-section-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 60px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.user-type-section-title,
+.features-section-title,
+.how-it-works-section-title,
+.join-the-fixtruck-title,
+.get-fixtruck-title,
+.footer-faq-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 62px;
+    max-width: 766px;
+    color: rgba(30, 30, 30, 1);
+}
+
+.user-types {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(223, 228, 234, 1);
+    background-color: rgba(250, 251, 252, 1);
+    padding: 46px 56px;
+    border-radius: 18px;
+
+}
+
+.user-icon-wrapper {
+    border: 1px solid rgba(78, 92, 109, 1);
+    border-radius: 12px;
+    width: fit-content;
+    padding: 14px;
+}
+
+.user-title,
+.features-section-subtitle,
+.feature-title,
+.how-it-works-item-title,
+.faq-item-title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: rgba(158, 20, 64, 1);
+    margin-top: 24px;
+}
+
+.user-description,
+.feature-description,
+.how-it-works-item-description,
+.join-the-fixtruck-description,
+.get-fixtruck-description,
+.footer-faq-description,
+.faq-item-description {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    color: rgba(78, 92, 109, 1);
+    margin-top: 16px;
+}
+
+.user-link {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+    color: rgba(158, 20, 64, 1);
+    text-decoration: none;
+    margin-top: 60px;
+}
+
+.features-section {
+    padding-top: 119px;
+    background-color: rgba(255, 255, 255, 1);
+    backdrop-filter: blur(4px);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-type-btns {
+    background-color: rgba(158, 20, 64, 0.04);
+    border: 2px solid rgba(158, 20, 64, 1);
+    display: flex;
+    gap: 2px;
+    width: fit-content;
+    border-radius: 28px;
+    padding: 3px;
+}
+
+.user-type-btn {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+    border-radius: 24px;
+    padding: 8px 18px;
+    border: none;
+}
+
+.truck-btn {
+    background-color: rgba(158, 20, 64, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.user-btn {
+    background-color: transparent;
+    color: rgba(158, 20, 64, 1);
+}
+
+.features-section-title {
+    margin-top: 28px;
+    text-align: center;
+}
+
+.features-section-subtitle,
+.footer-faq-description {
+    font-weight: 400;
+    color: rgba(30, 30, 30, 1);
+    margin-top: 20px;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 41px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.feature {
+    background-color: rgba(250, 251, 252, 1);
+    border: 1px solid rgba(223, 228, 234, 1);
+    padding: 24px;
+    border-radius: 18px;
+}
+
+.feature-title {
+    color: rgba(30, 30, 30, 1);
+    margin-top: 0;
+}
+
+.feature-description {
+    margin-top: 12px;
+}
+
+.how-it-works-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+
+}
+
+.how-it-works-section-title,
+.join-the-fixtruck-title {
+    color: rgba(255, 255, 255, 1);
+    margin-top: 100px;
+    text-align: center;
+}
+
+.how-it-works-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 155px;
+    margin-top: 60px;
+}
+
+.how-it-works-list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 498px;
+}
+
+.how-it-works-item-title {
+    color: rgba(255, 255, 255, 1);
+    margin-top: 0;
+}
+
+.how-it-works-item-description {
+    max-width: 396px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.join-the-fixtruck-title {
+    max-width: 635px;
+}
+
+.join-the-fixtruck-description {
+    max-width: 840px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.get-fixtruck {
+    padding: 48px 270px;
+    background-color: rgba(96, 12, 38, 1);
+    border-radius: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 116px;
+}
+
+.get-fixtruck-title {
+    max-width: 603px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.get-fixtruck-description {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.get-fixtruck-btn {
+    border: 2px solid rgba(255, 255, 255, 1);
+    color: rgba(158, 20, 64, 1);
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 28px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    padding-top: 100px;
+}
+
+.footer-faq {
+    display: flex;
+    gap: 233px;
+}
+
+.footer-faq-info{
+    max-width: 340px;
+}
+
+.footer-faq-description{
+    color: rgba(0, 0, 0, 1);
+}
+
+.footer-faq-list{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.faq-item-line{
+    border: 1px solid rgba(223, 228, 234, 1);
+    width: 96px;
+    height: 0;
+    transform: rotate(90deg);
+}
+
+.faq-item{
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+
+.faq-item-title{
+    color: rgba(0, 0, 0, 1);
+    margin-top: 0;
+}
+
+.faq-item-description{
+    color: rgba(30, 30, 30, 1);
+    max-width: 395px;
+}
+
+.footer-contact-wrapper {
+    margin-top: 116px;
+}
+
+.footer-contact-info {
+    max-width: 481px;
+}
+.footer-contact-title{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    color: rgba(30, 30, 30, 1);
+}
+
+.footer-contact-description {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: rgba(30, 30, 30, 1);
+}
+
+.footer-contact{
+    margin-top: 24px;
+    display: flex;
+    gap: 18px;
+}
