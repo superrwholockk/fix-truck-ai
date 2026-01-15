@@ -29,6 +29,11 @@ body {
     width: fit-content;
 }
 
+.header-btn:hover {
+    background-color: rgba(158, 20, 64, 1);
+    transition: all 0.5s;
+}
+
 .hero {
     left: 50%;
     transform: translateX(-52%);
@@ -301,7 +306,24 @@ body {
     display: flex;
     flex-direction: column;
     gap: 24px;
-    max-width: 498px;
+    /*max-width: 498px;*/
+}
+
+.how-it-works-item{
+    display: flex;
+    align-items: center;
+}
+.how-it-works-item-line {
+    border: 1px solid rgba(29, 34, 41, 1);
+    width: 96px;
+    height: 0;
+    transform: rotate(90deg);
+}
+
+.how-it-works-item-line:hover,
+.faq-item-line:hover {
+    border: 1px solid rgba(158, 20, 64, 1);
+    transition: all 0.5s;
 }
 
 .how-it-works-item-title {
@@ -350,6 +372,10 @@ body {
     color: rgba(158, 20, 64, 1);
     background-color: rgba(255, 255, 255, 1);
     margin-top: 28px;
+}
+
+.get-fixtruck-btn:hover {
+    color: rgba(255, 255, 255, 1);
 }
 
 .footer {
@@ -463,6 +489,13 @@ body {
     border-radius: 11px;
     padding: 14px 18px;
     border: none;
+}
+
+.footer-btn:hover {
+    background-color: rgba(250, 251, 252, 1);
+    color: rgba(158, 20, 64, 1);
+    border: 2px solid rgba(158, 20, 64, 1);
+    transition: all 0.5s;
 }
 
 .footer-line {
