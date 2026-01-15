@@ -14,7 +14,7 @@ body {
 .header {
     display: flex;
     justify-content: center;
-    gap: 763px;
+    gap: 755px;
 }
 
 .header-btn {
